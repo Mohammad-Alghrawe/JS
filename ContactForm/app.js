@@ -1,6 +1,6 @@
 console.log('js is running..');
-
-
+// Your web app's Firebase configuration
+// here ..........................
 // Initialize Firebase
 var firebaseConfig = {}
 firebase.initializeApp(firebaseConfig);
