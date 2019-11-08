@@ -1,6 +1,5 @@
 * {
     box-sizing: border-box;
-
 }
 
 body {
@@ -97,8 +96,15 @@ ul {
     transition: background-color 2s ease-out;
 }
 
+.alert {
+    text-align: center;
+    padding: 10px;
+    background: rgb(169, 223, 69);
+    color: #fff;
+    margin-bottom: 10px;
+    display: none;
+}
 /* Large Screen */
-
 @media(min-width: 700px) {
     .wrapper {
         display: grid;
